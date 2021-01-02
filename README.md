@@ -7,3 +7,5 @@ I setup on CLion with Windows MSVC compiler (x64) and working fine with CUDA 10.
 
 Also if you are trying to use Libtorch in Windows, just use MSVC do not use MinGW unless you want to compile the Libtorch from source by yourself.  
 I saw the github issue when I was googling but I lost it now. (will link it when I found it again).
+
+And if you downloaded release version of Libtorch, you will need to update your cmake options. Check the official documentation about that.
